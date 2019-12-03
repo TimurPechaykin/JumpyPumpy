@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spriter_data scml_version="1.0" generator="BrashMonkey Spriter" generator_version="r11">
+    <folder id="0" name="Standart/1x">
+        <file id="0" name="Standart/1x/Standart.png" width="259" height="405" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Standart/1x/рука2.png" width="66" height="159" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Standart/1x/рука1.png" width="66" height="159" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Standart/1x/правая нога.png" width="66" height="138" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Standart/1x/левая нога.png" width="66" height="138" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="1" name="Police">
+        <file id="0" name="Police/PoliceA1.png" width="66" height="159" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Police/PoliceA2.png" width="66" height="159" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Police/PoliceMan.png" width="259" height="399" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Police/PoliceL1.png" width="66" height="139" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Police/PoliceL2.png" width="66" height="138" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="2" name="Punk/1x">
+        <file id="0" name="Punk/1x/Пунк.png" width="259" height="464" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Punk/1x/PunkL2.png" width="66" height="138" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Punk/1x/PunkL1.png" width="66" height="138" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Punk/1x/PunkA2.png" width="84" height="161" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Punk/1x/PunkA1.png" width="82" height="159" pivot_x="0" pivot_y="1"/>
+        <file id="5" name="Punk/1x/LA2.png.tmp$$" width="66" height="159" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <folder id="3" name="Luxary/1x">
+        <file id="0" name="Luxary/1x/LA1.png" width="66" height="159" pivot_x="0" pivot_y="1"/>
+        <file id="1" name="Luxary/1x/LA2.png" width="66" height="159" pivot_x="0" pivot_y="1"/>
+        <file id="2" name="Luxary/1x/LuxarySkin.png" width="286" height="407" pivot_x="0" pivot_y="1"/>
+        <file id="3" name="Luxary/1x/LL2.png" width="66" height="138" pivot_x="0" pivot_y="1"/>
+        <file id="4" name="Luxary/1x/LL1.png" width="66" height="138" pivot_x="0" pivot_y="1"/>
+    </folder>
+    <entity id="0" name="entity_000">
+        <animation id="0" name="NewAnimation" length="24" interval="100">
+            <mainline>
+                <key id="0">
+                    <object_ref id="0" timeline="0" key="0" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="0" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="0" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="0" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="0" z_index="4"/>
+                </key>
+                <key id="1" time="12">
+                    <object_ref id="0" timeline="0" key="1" z_index="0"/>
+                    <object_ref id="1" timeline="1" key="1" z_index="1"/>
+                    <object_ref id="2" timeline="2" key="1" z_index="2"/>
+                    <object_ref id="3" timeline="3" key="1" z_index="3"/>
+                    <object_ref id="4" timeline="4" key="1" z_index="4"/>
+                </key>
+            </mainline>
+            <timeline id="0" name="PunkA1">
+                <key id="0" spin="0">
+                    <object folder="2" file="4" x="-132.36664" y="62.06897"/>
+                </key>
+                <key id="1" time="12" spin="0">
+                    <object folder="2" file="4" x="-132.36664" y="55.58621"/>
+                </key>
+            </timeline>
+            <timeline id="1" name="PunkL1">
+                <key id="0" spin="0">
+                    <object folder="2" file="2" x="-77.96552" y="-39.42529"/>
+                </key>
+                <key id="1" time="12" spin="0">
+                    <object folder="2" file="2" x="-76.427058" y="19.24138"/>
+                </key>
+            </timeline>
+            <timeline id="2" name="PunkL2">
+                <key id="0" spin="0">
+                    <object folder="2" file="1" x="10.42032" y="19.24138"/>
+                </key>
+                <key id="1" time="12" spin="0">
+                    <object folder="2" file="1" x="10.42032" y="-39.42529"/>
+                </key>
+            </timeline>
+            <timeline id="3" name="Пунк">
+                <key id="0" spin="0">
+                    <object folder="2" file="0" x="-122.54313" y="379.11696"/>
+                </key>
+                <key id="1" time="12" spin="0">
+                    <object folder="2" file="0" x="-122.54313" y="366.11696"/>
+                </key>
+            </timeline>
+            <timeline id="4" name="PunkA2">
+                <key id="0" spin="0">
+                    <object folder="2" file="3" x="40.8309" y="56.13849"/>
+                </key>
+                <key id="1" time="12" spin="0">
+                    <object folder="2" file="3" x="40.8309" y="33.06897"/>
+                </key>
+            </timeline>
+        </animation>
+    </entity>
+</spriter_data>
